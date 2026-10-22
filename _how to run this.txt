@@ -1,0 +1,6 @@
+cd levenphrase_plain
+// python3 test_levenphrase.py
+
+python3 preview_file.py examples/pairs.tsv --format tsv --language pl --mode wyrazow --results-file results1.txt
+
+python3 preview_file.py /path/to/teksty.txt --format triples --language pl --mode glosek --results-file results2.txt --results-kind 2
